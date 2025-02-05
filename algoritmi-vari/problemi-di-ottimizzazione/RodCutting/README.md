@@ -14,11 +14,12 @@ $$
 
 r(n) = 
 
-\begin{cases}
-0 \text{ se } n = 0\\
-\max \{ P(i) + r(n-i)\} \text{ con } 1 \leq i \leq n
-\end{cases}
-
+\left\{
+\begin{array}{ll}
+0 & \text{ se } n = 0 \\
+\max \{ P(i) + r(n-i)\} & \text{ con } 1 \leq i \leq n
+\end{array} 
+\right.
 $$
 
 ## Programmazione dinamica o greedy?
