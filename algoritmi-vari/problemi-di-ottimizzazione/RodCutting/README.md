@@ -53,7 +53,7 @@ $$
 r(n)^* < r(n)'
 $$
 
-Ma questo è un assurdo, in quanto $r(n)^*$ è una soluzione ottima per ipotesi: abbiamo dimostrato che $ r(n-i)^* $ deve essere una soluzione ottima, e quindi la sottostruttura ottima del problema!
+Ma questo è un assurdo, in quanto $r(n)^*$ è una soluzione ottima per ipotesi: abbiamo dimostrato che $r(n-i)^*$ deve essere una soluzione ottima, e quindi la sottostruttura ottima del problema!
 
 ## In questa repository
 
