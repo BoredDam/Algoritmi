@@ -10,13 +10,7 @@ $p_i$ sarà il prezzo di vendita di un'asta di lunghezza $i$.
 ### Formulazione ricorsiva del problema
 La funzione $r(n)$ ritorna il valore massimo di vendita di un'asta di lunghezza $n$.
 
-$$
-r(n) = 0 \text{ se } n = 0  
-$$
-altrimenti
-$$
-r(n) = \max \lbrace P(i) + r(n-i) \rbrace  \text{ con } 1 \leq i \leq n
-$$
+![](https://quicklatex.com/cache3/10/ql_1ddfe1494a276ae9ad864b16c0352010_l3.png)
 
 ## Programmazione dinamica o greedy?
 
