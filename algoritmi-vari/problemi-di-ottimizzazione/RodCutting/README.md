@@ -11,15 +11,11 @@ $p_i$ sarà il prezzo di vendita di un'asta di lunghezza $i$.
 La funzione $r(n)$ ritorna il valore massimo di vendita di un'asta di lunghezza $n$.
 
 $$
-
-r(n) = 
-
-\left\{
-\begin{array}{ll}
-0 & \text{ se } n = 0 \\
-\max \{ P(i) + r(n-i)\} & \text{ con } 1 \leq i \leq n
-\end{array} 
-\right.
+r(n) = 0 \text{ se } n = 0  
+$$
+altrimenti
+$$
+r(n) = \max \{ P(i) + r(n-i)\}  \text{ con } 1 \leq i \leq n
 $$
 
 ## Programmazione dinamica o greedy?
