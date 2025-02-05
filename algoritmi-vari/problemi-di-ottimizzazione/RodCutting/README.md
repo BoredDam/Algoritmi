@@ -27,13 +27,16 @@ Il problema in questione gode di sottostruttura ottima e di overlapping subprobl
 I problemi che si ripetono sono il calcolo della migliore combinazione di tagli per massimizzare il prezzo di vendita dell'asta di dimensione $n$-esima.
 
 ### Sottostruttura ottima (con dimostrazione)
-Sia $r(n)^*$ una soluzione ottima al problema.
+Sia $r(n)^* $ una soluzione ottima al problema.
+
 $$
 r(n)^* = r(n-i)^* + P(i)
 $$
+
 Supponiamo per assurdo che $r(n-i)^*$ non sia ottima al sottoproblema $r(n-i)$.
 
 Allora, esisterà una soluzione ottima tale che
+
 $$
 r(n-i)' \geq r(n-i) \Rightarrow r(n-i)' > r(n-i)^*
 $$
