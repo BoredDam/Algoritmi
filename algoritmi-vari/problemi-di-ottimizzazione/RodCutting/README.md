@@ -15,7 +15,7 @@ r(n) = 0 \text{ se } n = 0
 $$
 altrimenti
 $$
-r(n) = \max \{ P(i) + r(n-i)\}  \text{ con } 1 \leq i \leq n
+r(n) = \max \lbrace P(i) + r(n-i) \rbrace  \text{ con } 1 \leq i \leq n
 $$
 
 ## Programmazione dinamica o greedy?
