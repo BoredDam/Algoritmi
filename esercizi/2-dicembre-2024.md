@@ -62,7 +62,7 @@ trovare una sottosequenza Z comune a X e Y di lunghezza massima.
 
 Il Rod-Cutting problem è un problema di ottimizzazione.
 
-Data un'asta di lunghezza $n$ e un vettore contenente i prezzi di vendita delle aste di lunghezza $i$, con $i \in \{ 0, 1, \dots, n\}$ (con $p[0] = 0$ ), trovare il prezzo di vendita maggiore dell'asta di lunghezza $n$, sfruttando un opportuna combinazione di tagli.
+Data un'asta di lunghezza $n$ e un vettore contenente i prezzi di vendita delle aste di lunghezza $i$, con $i \in \\{ 0, 1, \dots, n\\}$ (con $p[0] = 0$ ), trovare il prezzo di vendita maggiore dell'asta di lunghezza $n$, sfruttando un opportuna combinazione di tagli.
 
 È un problema di ottimizzazione in quanto, nonostante siano molte le soluzioni valide (che rispettano le condizioni per essere una soluzione), non tutte massimizzano il prezzo di vendita. Esiste quindi una soluzione ottima. Qualsiasi altra soluzione può essere o peggiore, o equivalente.
 
@@ -72,7 +72,7 @@ $$
 r(n)=
 \begin{cases}
 0 & \quad \text{se $n = 0$}\\ 
-\max\{r(n-i) + p(i)\} & \quad \text{con $1 \leq i \leq n$} 
+\max\\{r(n-i) + p(i)\\} & \quad \text{con $1 \leq i \leq n$} 
 \end{cases}
 $$
 
