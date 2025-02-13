@@ -7,6 +7,7 @@ I problemi dello zaino sono un insieme di problemi di otttimizzazione.
 Dato un insieme $X$ di $n$ oggetti e uno zaino di capienza $k$, trovare la migliore combinazione di oggetti per massimizzare il guadagno (proporzionale a valore, peso o numero di oggetti, dipendentemente dal problema).
 
 Oggetti:
+
 $$
 X = \langle x_1, x_2, \dots, x_n\rangle  
 $$
