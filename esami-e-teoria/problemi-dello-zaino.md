@@ -13,9 +13,11 @@ X = \langle x_1, x_2, \dots, x_n\rangle
 $$
 
 
-$ 0 \leq x \leq 1$ (1 : oggetto preso totalmente, 0 oggetto totalmente non preso)
+$ 0 \leq x \leq 1 $ 
+(1 : oggetto preso totalmente, 0 oggetto totalmente non preso)
 
 Peso (non negativo):
+
 $$
 P = \langle p_1, p_2, \dots, p_n\rangle
 $$
