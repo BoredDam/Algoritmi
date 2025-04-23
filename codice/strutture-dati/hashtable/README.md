@@ -57,5 +57,3 @@ Stampa il contenuto dell'hash table nella forma
     m: n_m
 
 Con $m$ dimensione della table.
-
-    a
