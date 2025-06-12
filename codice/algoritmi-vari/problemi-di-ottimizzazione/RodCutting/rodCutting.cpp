@@ -7,7 +7,7 @@ int rodCutting(int *prices, int rodLen);
 //  prices = array dei prezzi, con zero al primo posto e con un numero di valori pari 
 //  alla lunghezza dell'asta + 1;
 
-int main(){
+int main() {
     int prices[] = {0, 2, 7, 9, 10}; 
     std::cout<<rodCutting(prices, 4)<<"\n";
 }
@@ -16,7 +16,7 @@ int main(){
 // l'array r sarà la nostra funzione r(n)
 
 
-int rodCutting(int *prices, int rodLen){
+int rodCutting(int *prices, int rodLen) {
 
     // r[n] conterrà il prezzo massimo di vendita di una barra 
     // di lunghezza n, tagliata in maniera opportuna
@@ -24,7 +24,7 @@ int rodCutting(int *prices, int rodLen){
     r[0]=0;
 
     // ciclo for per scorrere tutte le lunghezze
-    for(int k=1; k<=rodLen; k++){
+    for (int k = 1; k <= rodLen; k++) {
 
         r[k] = -10000;
 
@@ -33,12 +33,11 @@ int rodCutting(int *prices, int rodLen){
         // con k = 5 e i = 2 => r[5] < prices[5-2] + r[2]. 
         // Essendo true, entrerà nell'if, aggiornando il miglior prezzo di vendita per l'asta di lunghezza 5.
 
-        for(int i=1; i<=k; i++){
-            if(r[k] < prices[i] + r[k-i]){
+        for (int i = 1; i <= k; i++) {
+            if (r[k] < prices[i] + r[k-i]) {
                 r[k] = prices[i] + r[k-i];
             }
         }
-        
     }
 
     return r[rodLen]; 
